@@ -1,0 +1,13 @@
+.about-section p {
+  max-width: none;
+}
+
+@media screen and (min-width: 800px) {
+  .about-section {
+    display: flex;
+    justify-content: space-between;
+  }
+  .about-content {
+    max-width: 35em;
+  }
+}

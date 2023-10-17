@@ -31,6 +31,7 @@
   font-weight: 500;
   vertical-align: middle;
   line-height: normal;
+  margin: 0;
 }
 .links a {
   /* color: var(--clr-grey-3); */

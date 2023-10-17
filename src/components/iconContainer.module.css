@@ -1,0 +1,18 @@
+.icons-container {
+  display: none;
+}
+
+.tech-icon {
+  height: 80px;
+}
+
+@media screen and (min-width: 800px) {
+  .icons-container {
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    gap: 30px;
+    justify-items: center;
+
+    /* background-color: yellow; */
+  }
+}
